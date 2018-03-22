@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
@@ -28,7 +29,9 @@ public class CreateDriver {
 				break;
 			case "gc" : 
 				System.setProperty("webdriver.chrome.driver","./browser-server//chromedriver.exe");
-				driver = new ChromeDriver();
+				ChromeOptions chromeOptions= new ChromeOptions();
+				chromeOptions.setBinary("C:/Program Files (x86)/Google/Chrome/Application/chrome.exe");
+				driver = new ChromeDriver(chromeOptions);
 				break;
 			case "opera" : 
 				System.setProperty("webdriver.opera.driver", "./browser-server/operadriver.exe");
