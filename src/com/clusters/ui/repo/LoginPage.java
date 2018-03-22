@@ -18,7 +18,7 @@ public class LoginPage
 	}
 	
 	public WebElement getUserNameTextBox()
-	{
+	{		 
 		 return driver.findElement(By.id("identifierId"));
 	}
 	public WebElement getPasswordDiv()

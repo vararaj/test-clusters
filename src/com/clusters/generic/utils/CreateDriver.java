@@ -36,7 +36,7 @@ public class CreateDriver {
 			case "opera" : 
 				System.setProperty("webdriver.opera.driver", "./browser-server/operadriver.exe");
 		 		OperaOptions operaOptions = new OperaOptions();
-		 		operaOptions.setBinary("./browser-server/Opera.exe");
+		 		operaOptions.setBinary("C:/Users/rrajkumar/AppData/Local/Programs/Opera/51.0.2830.40/Opera.exe");
 				driver = new OperaDriver(operaOptions);
 				break;
 			default:
