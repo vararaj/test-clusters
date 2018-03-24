@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33140" started-at="2018-03-22T16:46:54Z" finished-at="2018-03-22T16:47:27Z">
+  <suite name="Default suite" duration-ms="41835" started-at="2018-03-24T14:17:37Z" finished-at="2018-03-24T14:18:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33140" started-at="2018-03-22T16:46:54Z" finished-at="2018-03-22T16:47:27Z">
+    <test name="Default test" duration-ms="41835" started-at="2018-03-24T14:17:37Z" finished-at="2018-03-24T14:18:19Z">
       <class name="com.clusters.test.smoke.TestLoginSC3879">
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="preCondition" is-config="true" duration-ms="5935" started-at="2018-03-22T16:46:54Z" finished-at="2018-03-22T16:47:00Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="preCondition" is-config="true" duration-ms="9087" started-at="2018-03-24T14:17:37Z" finished-at="2018-03-24T14:17:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testInvalidUsernameTC1()[pri:1, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="testInvalidUsernameTC1" duration-ms="903" started-at="2018-03-22T16:47:00Z" finished-at="2018-03-22T16:47:01Z">
+        <test-method status="PASS" signature="testInvalidUsernameTC1()[pri:1, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="testInvalidUsernameTC1" duration-ms="1363" started-at="2018-03-24T14:17:46Z" finished-at="2018-03-24T14:17:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidUsernameTC1 -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="postCondition" is-config="true" duration-ms="611" started-at="2018-03-22T16:47:01Z" finished-at="2018-03-22T16:47:01Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="postCondition" is-config="true" duration-ms="594" started-at="2018-03-24T14:17:48Z" finished-at="2018-03-24T14:17:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="preCondition" is-config="true" duration-ms="6462" started-at="2018-03-22T16:47:01Z" finished-at="2018-03-22T16:47:08Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="preCondition" is-config="true" duration-ms="7353" started-at="2018-03-24T14:17:48Z" finished-at="2018-03-24T14:17:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="tesValidUsernameTC2()[pri:2, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="tesValidUsernameTC2" duration-ms="1646" started-at="2018-03-22T16:47:08Z" finished-at="2018-03-22T16:47:09Z">
+        <test-method status="PASS" signature="tesValidUsernameTC2()[pri:2, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="tesValidUsernameTC2" duration-ms="1624" started-at="2018-03-24T14:17:55Z" finished-at="2018-03-24T14:17:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tesValidUsernameTC2 -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="postCondition" is-config="true" duration-ms="610" started-at="2018-03-22T16:47:09Z" finished-at="2018-03-22T16:47:10Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="postCondition" is-config="true" duration-ms="609" started-at="2018-03-24T14:17:57Z" finished-at="2018-03-24T14:17:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="preCondition" is-config="true" duration-ms="4155" started-at="2018-03-22T16:47:10Z" finished-at="2018-03-22T16:47:14Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="preCondition" is-config="true" duration-ms="7368" started-at="2018-03-24T14:17:58Z" finished-at="2018-03-24T14:18:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testInvalidPasswordTC3()[pri:3, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="testInvalidPasswordTC3" duration-ms="2967" started-at="2018-03-22T16:47:14Z" finished-at="2018-03-22T16:47:17Z">
+        <test-method status="PASS" signature="testInvalidPasswordTC3()[pri:3, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="testInvalidPasswordTC3" duration-ms="3549" started-at="2018-03-24T14:18:05Z" finished-at="2018-03-24T14:18:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidPasswordTC3 -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="postCondition" is-config="true" duration-ms="612" started-at="2018-03-22T16:47:17Z" finished-at="2018-03-22T16:47:18Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="postCondition" is-config="true" duration-ms="605" started-at="2018-03-24T14:18:09Z" finished-at="2018-03-24T14:18:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="preCondition" is-config="true" duration-ms="7703" started-at="2018-03-22T16:47:18Z" finished-at="2018-03-22T16:47:26Z">
+        <test-method status="PASS" signature="preCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="preCondition" is-config="true" duration-ms="8047" started-at="2018-03-24T14:18:09Z" finished-at="2018-03-24T14:18:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testForgotEmailTC4()[pri:4, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="testForgotEmailTC4" duration-ms="888" started-at="2018-03-22T16:47:26Z" finished-at="2018-03-22T16:47:26Z">
+        <test-method status="PASS" signature="testForgotEmailTC4()[pri:4, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="testForgotEmailTC4" duration-ms="1001" started-at="2018-03-24T14:18:17Z" finished-at="2018-03-24T14:18:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForgotEmailTC4 -->
-        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="postCondition" is-config="true" duration-ms="615" started-at="2018-03-22T16:47:26Z" finished-at="2018-03-22T16:47:27Z">
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:com.clusters.test.smoke.TestLoginSC3879@46d56d67]" name="postCondition" is-config="true" duration-ms="606" started-at="2018-03-24T14:18:18Z" finished-at="2018-03-24T14:18:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
